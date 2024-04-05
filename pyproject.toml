@@ -1,0 +1,24 @@
+[project]
+name = "yolo_realsense_python"
+description = "Yolo v8 with RealSense D435i Distance Measurement"
+version = "0.1"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["computer vision", "depth estimation", "object detection", "instance segmentation"]
+authors = [
+    { name = "Denis Zatyagov", email = "d.zatyagov@tudelft.nl" },
+]
+dependencies = [
+    "numpy",
+    "opencv_python",
+    "pyrealsense2",
+    "torch",
+    "ultralytics",
+]
+
+[project.urls]
+repository = ""
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,5 @@
+numpy
+opencv_python
+pyrealsense2
+torch==2.1.0+cu121
+ultralytics==8.1.2
